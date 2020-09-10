@@ -119,7 +119,14 @@ button {
 }
 
 
+
+
 /* 以下、オリジナルcss */
+
+* {
+  cursor: default;
+}
+
 header {
   background: rgb(255, 200, 130);
   height: 100px;
@@ -129,5 +136,138 @@ header {
   font-size: 60px;
   font-weight: bold;
   font-family: Courier;
-  cursor: default;
+}
+
+#name {
+  width: calc(100vw - 400px);
+  height: 55vh;
+  margin: 0px 200px;
+  padding: 40px;
+  font-size: 24px;
+}
+
+.change-box {
+  margin: 30px 240px;
+  height: 200px;
+  position: relative;
+}
+
+.font {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 45%;
+
+}
+
+.color {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 45%;
+}
+
+.title {
+  display: inline-block;
+  width: 200px;
+  line-height: 90px;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Snell Roundhand', sans-serif;
+}
+
+.btn-box {
+  display: flex;
+  width: 729px;
+  line-height: 90px;
+  text-align: center;
+  font-size: 40px;
+  background: rgb(255, 200, 130, 0.7);
+  border: 1px solid;
+  border-right: transparent;
+}
+
+.btn {
+  width: 90px;
+  border-right: 1px solid;
+}
+
+
+
+#font1 {
+  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+#font2 {
+  font-family: 'Hannotate TC',sans-serif;
+}
+
+#font3 {
+  font-family: 'Arial Unicode MS', sans-serif;
+}
+
+#font4 {
+  font-family: 'Apple Chancery', sans-serif;
+}
+
+#font5 {
+  font-family: 'Chalkduster',sans-serif;
+}
+
+#font6 {
+  font-family: 'Herculanum',sans-serif;
+}
+
+#font7 {
+  font-family: 'Luminari',sans-serif;
+}
+
+#font8 {
+  font-family: 'Phosphate',sans-serif;
+}
+
+
+
+#red {
+  color: red;
+  border-right: 1px solid black;
+}
+
+#blue {
+  color: blue;
+  border-right: 1px solid black;
+}
+
+#yellow {
+  color: yellow;
+  border-right: 1px solid black;
+}
+
+#green {
+  color: green;
+  border-right: 1px solid black;
+}
+
+#purple {
+  color: purple;
+  border-right: 1px solid black;
+}
+
+#brown {
+  color: brown;
+  border-right: 1px solid black;
+}
+
+#deeppink {
+  color: deeppink;
+  border-right: 1px solid black;
+}
+
+#black {
+  color: black;
+  border-right: 1px solid black;
 }
