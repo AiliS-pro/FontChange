@@ -180,13 +180,23 @@ header {
   font-weight: bold;
   font-family: 'Snell Roundhand', sans-serif;
 }
-.btn-box {
+.btn-box-a {
   display: flex;
   width: 729px;
   line-height: 90px;
   text-align: center;
   font-size: 40px;
-  background: rgb(255, 200, 130, 0.7);
+  background: rgba(255, 200, 130, 0.7);
+  border: 1px solid;
+  border-right: transparent;
+}
+.btn-box-b {
+  display: flex;
+  width: 729px;
+  line-height: 90px;
+  text-align: center;
+  font-size: 40px;
+  background: rgba(255, 200, 130, 0.7);
   border: 1px solid;
   border-right: transparent;
 }
@@ -195,7 +205,9 @@ header {
   border-right: 1px solid;
   font-weight: bold;
 }
-
+.active-btn {
+  background: rgba(255, 200, 130, 0.7);
+}
 
 
 #font_a {
